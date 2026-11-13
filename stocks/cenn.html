@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CENN Short Squeeze Check</title>
+<meta name="description" content="Is the 130% short interest in Cenntro (CENN) a squeeze setup? A look at the dilution, the stale float number and the filings, as of November 13, 2026.">
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #ffffff; --ink: #1c2230; --muted: #5a6478; --rule: #e1e6ee; --card: #f6f8fb;
+    --bad: #b3261e; --bad-bg: #fdecea; --good: #1b6e3a; --accent: #1f4e79;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12161d; --ink: #e8ecf3; --muted: #a8b2c4; --rule: #2b3240; --card: #1a212b;
+      --bad: #ff8a80; --bad-bg: #3a1d1d; --good: #7fd19b; --accent: #7cb3e8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12161d; --ink: #e8ecf3; --muted: #a8b2c4; --rule: #2b3240; --card: #1a212b;
+    --bad: #ff8a80; --bad-bg: #3a1d1d; --good: #7fd19b; --accent: #7cb3e8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .page { max-width: 860px; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+  .kicker { color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.2px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0.3rem 0 0.8rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 0.8rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--rule); }
+  p { margin-bottom: 0.9rem; }
+  .verdict { background: var(--bad-bg); border-left: 4px solid var(--bad); padding: 1rem 1.2rem; border-radius: 0 8px 8px 0; margin: 1.2rem 0; }
+  .verdict strong { color: var(--bad); font-size: 1.15rem; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+  .stat { background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 0.8rem 1rem; }
+  .stat .v { font-size: 1.4rem; font-weight: 700; }
+  .stat .l { color: var(--muted); font-size: 0.85rem; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; font-variant-numeric: tabular-nums; }
+  th, td { padding: 0.5rem 0.75rem; text-align: right; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+  th:first-child, td:first-child, th:last-child, td:last-child { text-align: left; }
+  th { background: var(--card); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .neg { color: var(--bad); } .pos { color: var(--good); }
+  ol, ul { margin: 0 0 1rem 1.3rem; } li { margin-bottom: 0.5rem; }
+  .note { color: var(--muted); font-size: 0.88rem; margin-top: 2.5rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="kicker">Stock check &middot; November 13, 2026</div>
+<h1>CENN: Is 130% short interest a squeeze setup?</h1>
+<p>Cenntro (NASDAQ: CENN) is being talked up as a short squeeze because "130% of the float is shorted." Here is what the price history, news and SEC filings actually show.</p>
+
+<div class="verdict"><strong>Verdict: skip.</strong> The company is selling new shares into every bounce, the float number behind "130% shorted" is out of date, and short sellers could cover in minutes.</div>
+
+<div class="stats">
+  <div class="stat"><div class="v">$0.13</div><div class="l">Price today (was $2.64 on Oct 26)</div></div>
+  <div class="stat"><div class="v neg">&minus;95%</div><div class="l">Since Oct 26</div></div>
+  <div class="stat"><div class="v">$100M</div><div class="l">Share-sale program announced</div></div>
+  <div class="stat"><div class="v">0.04 days</div><div class="l">Short ratio (days to cover)</div></div>
+</div>
+
+<h2>What happened</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Date</th><th>Close</th><th>Change</th><th>Volume</th><th>What happened</th></tr></thead>
+  <tbody>
+    <tr><td>Oct 26</td><td>$2.64</td><td class="pos">+12.8%</td><td>937K</td><td>Volume jumps 2,925%</td></tr>
+    <tr><td>Oct 28</td><td>$1.99</td><td class="neg">&minus;20.7%</td><td>3.6M</td><td></td></tr>
+    <tr><td>Nov 2</td><td>$1.99</td><td class="pos">+7.9%</td><td>1.1M</td><td></td></tr>
+    <tr><td>Nov 3</td><td>$0.30</td><td class="neg">&minus;85.0%</td><td>72.9M</td><td>$100M share-sale program revealed</td></tr>
+    <tr><td>Nov 4</td><td>$0.18</td><td class="neg">&minus;40.5%</td><td>38.3M</td><td>"Shares plunge on dilution concerns"</td></tr>
+    <tr><td>Nov 10</td><td>$0.12</td><td class="neg">&minus;15.9%</td><td>2.7M</td><td></td></tr>
+    <tr><td>Nov 11</td><td>$0.15</td><td class="pos">+19.2%</td><td>220.4M</td><td>Squeeze talk; huge volume</td></tr>
+    <tr><td>Nov 12</td><td>$0.18</td><td class="pos">+24.4%</td><td>222.0M</td><td></td></tr>
+    <tr><td>Nov 13</td><td>$0.13</td><td class="neg">&minus;27.5%</td><td>21.9M</td><td>Another 424B5 filed (more shares to sell)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Why "130% of the float is shorted" doesn't mean a squeeze</h2>
+<ol>
+  <li><strong>The float number is out of date.</strong> Data sites still list about 1.07 million shares in the float and 2.47 million outstanding. But 220 million shares traded in a single day this week. The company has been issuing new shares through its at-the-market program, so the real float is far larger and the real short percentage is far smaller. Finviz itself shows 37% short, and even that is figured on the old share count.</li>
+  <li><strong>Shorts can get out in minutes.</strong> The short ratio is 0.04 days: at normal volume, every short seller could buy back in roughly 20 minutes of trading. A squeeze needs short sellers who can't find shares to buy, and here there are plenty.</li>
+  <li><strong>The company sells into every bounce.</strong> The +19% and +24% days on Nov 11&ndash;12 came on 220 million shares each, then the stock fell 27% the next day. That is what an active at-the-market offering looks like: rallies become a chance for the company to sell more stock.</li>
+</ol>
+
+<h2>The filings</h2>
+<ul>
+  <li><strong>424B5, Nov 13 and Oct 13:</strong> prospectus supplements that let the company sell new shares.</li>
+  <li><strong>8-K, Nov 3:</strong> the filing behind the $100 million equity sales program.</li>
+  <li><strong>DEF 14C, Oct 7 (preliminary Sep 25):</strong> an information statement, meaning insiders approved an action by written consent instead of a shareholder vote. Insiders own about 94%. With the stock far below Nasdaq's $1 minimum, a reverse split is the likely next step.</li>
+  <li><strong>Insiders:</strong> no buying in the last 90 days.</li>
+</ul>
+<p>The only positive news in the last 30 days was a Nov 3 press release about delivering electric trucks under government incentive programs. The stock fell 85% that same day.</p>
+
+<h2>Bottom line</h2>
+<p>On small companies with an active share-sale program, high short interest usually means short sellers expect more dilution, and so far they have been right. If a reverse split comes, these stocks often keep falling after it.</p>
+
+<p class="note">Data: Polygon daily bars, Finviz, SEC EDGAR filings and news headlines, as of the close on November 13, 2026 (that day's bar may have still been forming). This is a personal research note, not financial advice.</p>
+
+</div>
+</body>
+</html>
